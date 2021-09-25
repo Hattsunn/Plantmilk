@@ -2,3 +2,74 @@
     margin: 0px;
     padding: 0px;
 }
+
+section{
+    overflow: hidden;
+}
+
+.header{
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.theme-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.theme-top{
+    /* margin: 230px; */
+    display: fixed;
+    background-color: bisque;
+}
+
+.theme1{
+    /* padding: 40px; */
+    background-color: #fff;
+
+}
+
+.theme1 p{
+    font-size: 162px;
+    color: #4d4c49;
+    /* text-align: center; */
+}
+
+.theme-bottom{
+    margin-top: 127px;
+    display: flex;
+    background-color: bisque;
+
+}
+
+.theme2{
+    padding: 40px;
+    background-color: #fff;
+}
+
+.theme2 p{
+    font-size: 162px;
+    color: #4d4c49;
+    text-align: center;
+
+}
+
+.theme3{
+    padding: 40px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.theme3 p{
+    font-size: 40px;
+    color: #4d4c49;
+    text-align: center;
+
+
+}
