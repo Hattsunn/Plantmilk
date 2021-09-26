@@ -72,6 +72,46 @@ section{
     text-align: center;
 }
 
+.milkname{
+    background-color: #f1ede9;
+}
+/* ナビゲーション */
+nav ul{
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.milk-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin: 50px 50px;
+}
+
+.dairy-background{
+    background-image: url(img/dairy.png);
+
+}
+
+nav a{
+    font-size: 65px;
+    display: block;
+    text-decoration: none;
+    color: #4d4c49;
+    margin-top: 14px;
+    margin-right: 40px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    transition: 0.3s;
+}
+
+
 h1, h2, h3, h4{
     font-size: 45px;
     text-align: center;
