@@ -48,7 +48,6 @@ section{
 }
 
 .theme2{
-    padding: 40px;
     background-color: #fff;
 }
 
@@ -71,6 +70,266 @@ section{
     font-size: 40px;
     color: #4d4c49;
     text-align: center;
-
-
 }
+
+h1, h2, h3, h4{
+    font-size: 45px;
+    text-align: center;
+}
+.dairy{
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px; 
+    background-color: #e1ceeb;
+}
+
+.dairy-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dairy-text img{
+    width: 500px;
+    object-fit: contain;
+}
+
+.milkdaimei{
+    height: 90px;
+}
+
+.content-right{
+  width: 500px;
+  margin: 20px;
+  line-height: 2;
+}
+
+.content-right p {
+    width: 400px;
+    margin: 0 auto 20px;
+    /* font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif; */
+}
+
+.content-right a {
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 218px;
+    height: 81px;
+    background-color: #f1ede9;
+    color: #4d4c49;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 81px;
+    font-size: 15pt;
+}
+
+
+  
+.soy{
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px; 
+    background-color: #b8e3bf;
+}
+
+.soy-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soy-text img{
+    width: 500px;
+    object-fit: contain;
+}
+
+.content-left {
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+  }
+  
+.content-left p {
+    width: 400px;
+    margin: 0 auto 20px;
+}
+  
+.content-left a {
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 218px;
+    height: 81px;
+    background-color: #f1ede9;
+    color: #4d4c49;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 81px;
+    font-size: 15pt;
+}
+
+.almond{
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px; 
+    background-color: #e6cfb8;
+}
+
+.almond-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.almond-text img{
+    width: 500px;
+    object-fit: contain;
+}
+
+.oats{
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px; 
+    background-color: #b2d8ed;
+}
+
+.oats-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oats-text img{
+    width: 500px;
+    object-fit: contain;
+}
+
+.recipes{
+    width: 100vW;
+    height: 842px;
+    background-image: url(img/recipe_background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h5{
+    font-size: 90px;
+    text-align: center;
+}
+.recipes-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 255px;
+}
+
+.recipe1{
+    background-color: #fff;
+    padding: 40px;
+    margin: 0px 78px;
+    border-radius: 47px;
+}
+
+/* .recipename1{
+    background-color: #b8e3bf;
+    border-radius: 20px;
+} */
+
+.recipename1 a{
+  display: block;
+  margin: 10px auto;
+  text-decoration: none;
+  width: 170px;
+  height: 40px;
+  background-color: #b8e3bf;
+  color: #4d4c49;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.recipe2{
+    background-color: #fff;
+    padding: 40px;
+    margin: 0px 78px;
+    border-radius: 47px;
+}
+
+.recipename2 a{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #e6cfb8;
+    color: #4d4c49;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10pt;
+    font-weight: bold;
+  }
+  
+
+.recipe3{
+    background-color: #fff;
+    padding: 40px;
+    margin: 0px 78px;
+    border-radius: 47px;
+}
+
+.recipename3 a{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #b2d8ed;
+    color: #4d4c49;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+
+.column{
+    width: 100vw;
+    height: 505px;
+    background-image: url(img/column.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+h6{
+    font-size: 90px;
+    text-align: center;
+}
+
+.column-text{
+    width: 550px;
+}
+
+.column-text p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
