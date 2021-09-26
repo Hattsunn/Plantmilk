@@ -91,13 +91,13 @@ nav ul{
 nav li{
     list-style-type: none;
     float: left;
-    margin: 50px 50px;
+    /* margin: 50px 0px; */
 }
 
-.dairy-background{
+/* .dairy-background{
     background-image: url(img/dairy.png);
 
-}
+} */
 
 nav a{
     font-size: 65px;
@@ -108,8 +108,12 @@ nav a{
     margin-right: 40px;
     text-align: center;
     writing-mode: vertical-rl;
-    transition: 0.3s;
+    transition: 1s;
 }
+
+/* nav a:hover img:nth-of-type(2) {
+    opacity: 0;
+} */
 
 
 h1, h2, h3, h4{
