@@ -12,7 +12,8 @@ section{
   background-position: center center;
   position: relative;
   height: 100vh;
-  background-color: aqua;
+  background-image: url(img/header_img.png);
+  /* background-color: aqua; */
 }
 
 .theme-container{
