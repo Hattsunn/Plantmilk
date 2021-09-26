@@ -8,12 +8,12 @@ section{
 }
 
 .header{
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   background-image: url(img/header_img.png);
-  /* background-color: aqua; */
 }
 
 .theme-container{
@@ -380,10 +380,19 @@ h5{
     width: 100vw;
     height: 505px;
     background-image: url(img/column.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.column-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
   
 h6{
@@ -402,7 +411,11 @@ h6{
 }
 
 footer{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Klee One', cursive;
+    background-color: #f1ede9;
 }
 
