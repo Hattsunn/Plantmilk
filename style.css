@@ -220,16 +220,31 @@ h1, h2, h3, h4{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #e6cfb8;
 }
+
+.recipes-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
 h5{
     font-size: 90px;
     text-align: center;
 }
+
 .recipes-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 255px;
+    padding: 20px 25px;
 }
 
 .recipe1{
