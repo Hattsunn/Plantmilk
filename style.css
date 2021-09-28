@@ -8,13 +8,14 @@ section{
 }
 
 .header{
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh;
-  background-image: url(img/header_img.png);
+  height: 1589px;
+  background-image: url(img/main.png);
 }
+
 
 .theme-container{
     position: absolute;
@@ -128,7 +129,11 @@ h1, h2, h3, h4{
     justify-content: center;
     align-items: center;
     padding: 72px 0px; 
-    background-color: #e1ceeb;
+    background-image: url(img/dairy-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-color: #e1ceeb; */
 }
 
 .dairy-text{
@@ -186,7 +191,11 @@ h1, h2, h3, h4{
     justify-content: center;
     align-items: center;
     padding: 72px 0px; 
-    background-color: #b8e3bf;
+    background-image: url(img/soy-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-color: #b8e3bf; */
 }
 
 .soy-text{
@@ -233,7 +242,11 @@ h1, h2, h3, h4{
     justify-content: center;
     align-items: center;
     padding: 72px 0px; 
-    background-color: #e6cfb8;
+    background-image: url(img/almond-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-color: #e6cfb8; */
 }
 
 .almond-text{
@@ -253,7 +266,11 @@ h1, h2, h3, h4{
     justify-content: center;
     align-items: center;
     padding: 72px 0px; 
-    background-color: #b2d8ed;
+    background-image: url(img/oats-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-color: #b2d8ed; */
 }
 
 .oats-text{
@@ -267,7 +284,7 @@ h1, h2, h3, h4{
     object-fit: contain;
 }
 
-.recipes{
+#recipes{
     width: 100vW;
     height: 842px;
     background-image: url(img/recipe_background.png);
@@ -380,7 +397,7 @@ h5{
 
 
 
-.column{
+#column{
     width: 100vw;
     height: 505px;
     background-image: url(img/column.png);

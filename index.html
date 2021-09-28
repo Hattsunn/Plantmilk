@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Milk #New Choice</title>
+    <!-- jqueryの読み込み　-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <!-- CSSのファイルを読み込むのを忘れない -->
      <link rel="stylesheet" href="style.css">
      <!-- テーマ用フォント -->
@@ -12,8 +14,7 @@
      <!-- テキスト用フォント -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap" rel="stylesheet">
-
+　　　<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -38,7 +39,7 @@
     </section>
 
     <!-- ミルク一覧、ナビゲーション -->
-    <section class="milkname">
+    <!-- <section class="milkname">
         <div class="milkname-container">
             <div class="milk-dairy-container">
                     <nav>
@@ -52,7 +53,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <!-- デイリー -->
     <section id="dairy" class="dairy">
@@ -166,7 +167,7 @@
     </section>
 
     <!-- レシピ一覧 -->
-    <section class="recipes">
+    <section class="content" id="recipes">
         <div class="recipes-content">
             <!-- <h5>Recipes</h5> -->
             <img src="img/recipes-font.png">
@@ -200,7 +201,7 @@
     </section>
 
     <!-- コラム -->
-    <section class="column">
+    <section class="content" id="column">
         <div class="column-content">
             <!-- <h6>Column</h6> -->
             <img src="img/column-font.png">
@@ -223,6 +224,23 @@
         </footer>
 
     </section>
+
+    <!-- フワッと -->
+<script>
+    $(function(){
+        $(window).scroll(function (){
+            $('.content').each(function(){
+                var targetElement = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > targetElement - windowHeight + 200){
+                    $(this).css('opacity','1');
+                    $(this).css('transform','translateY(0)');
+                }
+            });
+        });
+    });
+</script>
     
 </body>
 </html>
