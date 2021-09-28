@@ -3,6 +3,15 @@
     padding: 0px;
 }
 
+/* @font-face {
+    font-family: 'Gill Sans Bold', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url(fonts/Gill\ Sans\ Bold.otf);
+} */
+
+@font-face {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url(fonts/Gill\ Sans\ Heavy.otf);
+}
 section{
     overflow: hidden;
 }
@@ -26,50 +35,53 @@ section{
 .theme-top{
     /* margin: 230px; */
     display: fixed;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
-.theme1{
-    /* padding: 40px; */
+/* .theme1{
+    padding: 40px;
     background-color: #fff;
 
-}
+} */
 
 .theme1 p{
-    font-size: 162px;
+    font-size: 138px;
     color: #4d4c49;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* text-align: center; */
 }
 
 .theme-bottom{
     margin-top: 127px;
     display: flex;
-    background-color: bisque;
+    /* background-color: bisque; */
 
 }
 
-.theme2{
+/* .theme2{
     background-color: #fff;
-}
+} */
 
 .theme2 p{
-    font-size: 162px;
+    font-size: 138px;
     color: #4d4c49;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 
 }
 
 .theme3{
     padding: 40px;
-    background-color: #fff;
+    /* background-color: #fff; */
     justify-content: center;
     align-items: center;
 
 }
 
 .theme3 p{
-    font-size: 40px;
+    font-size: 46px;
     color: #4d4c49;
+    font-family: 'Gill Sans Heavy', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
