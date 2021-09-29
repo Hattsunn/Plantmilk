@@ -30,6 +30,8 @@ section{
     position: absolute;
     display: flex;
     flex-direction: column;
+    top: 684px;
+    left: 148px;
 }
 
 .theme-top{
@@ -52,7 +54,7 @@ section{
 }
 
 .theme-bottom{
-    margin-top: 127px;
+    /* margin-top: 127px; */
     display: flex;
     /* background-color: bisque; */
 
@@ -85,10 +87,29 @@ section{
     text-align: center;
 }
 
-.milkname{
-    background-color: #f1ede9;
+.scroll{
+    position: absolute;
+    top: 1314px;
+    left: 282px;
+    font-size: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4d4c49;
+    writing-mode: vertical-lr;
+
 }
+
+.scroll hr{
+    color: #4d4c49;
+}
+
+
 /* ナビゲーション */
+.milkname-container{
+    position: absolute;
+    top: 1074px;
+    right: 300px;
+
+}
 nav ul{
     overflow: hidden;
     margin: 0;
@@ -97,36 +118,32 @@ nav ul{
 
 .milk-flex{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 nav li{
     list-style-type: none;
-    float: left;
+    /* float: left; */
     /* margin: 50px 0px; */
 }
 
-/* .dairy-background{
-    background-image: url(img/dairy.png);
-
-} */
-
 nav a{
-    font-size: 65px;
+    font-size: 56px;
     display: block;
     text-decoration: none;
     color: #4d4c49;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 14px;
-    margin-right: 40px;
+    margin-bottom: 14px;
     text-align: center;
-    writing-mode: vertical-rl;
     transition: 1s;
 }
 
-/* nav a:hover img:nth-of-type(2) {
-    opacity: 0;
-} */
+nav a:hover {
+    color: #fff;
+}
 
 
 h1, h2, h3, h4{
