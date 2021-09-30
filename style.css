@@ -440,7 +440,7 @@ h5{
   text-decoration: none;
   width: 170px;
   height: 40px;
-  background-color: #b8e3bf;
+  background-color: #f1ede9;
   color: #4d4c49;
   border-radius: 20px;
   text-align: center;
@@ -448,6 +448,11 @@ h5{
   font-size: 10pt;
   font-family: 'Klee One', cursive;
   font-weight: bold;
+  transition: 1s;
+}
+
+.recipename1 a:hover{
+    background-color: #b8e3bf
 }
 
 .recipe2{
@@ -463,7 +468,7 @@ h5{
     text-decoration: none;
     width: 170px;
     height: 40px;
-    background-color: #e6cfb8;
+    background-color: #f1ede9;
     color: #4d4c49;
     border-radius: 20px;
     text-align: center;
@@ -471,6 +476,11 @@ h5{
     font-size: 10pt;
     font-family: 'Klee One', cursive;
     font-weight: bold;
+    transition: 1s;
+  }
+
+  .recipename2 a:hover{
+    background-color: #e6cfb8;
   }
   
 
@@ -487,7 +497,7 @@ h5{
     text-decoration: none;
     width: 170px;
     height: 40px;
-    background-color: #b2d8ed;
+    background-color: #f1ede9;
     color: #4d4c49;
     border-radius: 20px;
     text-align: center;
@@ -495,6 +505,11 @@ h5{
     font-size: 10pt;
     font-family: 'Klee One', cursive;
     font-weight: bold;
+    transition: 1s;
+}
+
+.recipename3 a:hover{
+    background-color: #b2d8ed
 }
 
 @media screen and (max-width: 480px){
