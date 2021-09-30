@@ -46,14 +46,23 @@
             <p>Scroll</p>
         </div>
 
+        <!-- <span class="nav-toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span> -->
+
         <div class="milkname-container">
             <div class="milk-dairy-container">
+                <button type="button" class="btn js-btn">
+                    <span class="btn-line"></span>
+                  </button>
                     <nav>
                         <ul class="milk-flex">
-                            <li><a href="#dairy">DAIRY</a></li>
-                            <li><a href="#soy">SOY</a></li>
-                            <li><a href="#almond">ALMOND</a></li>
-                            <li><a href="#oats">OATS</a></li>
+                            <li class="menu-list"><a href="#dairy">DAIRY</a></li>
+                            <li class="menu-list"><a href="#soy">SOY</a></li>
+                            <li class="menu-list"><a href="#almond">ALMOND</a></li>
+                            <li class="menu-list"><a href="#oats">OATS</a></li>
                         </ul>
                     </nav>
             </div>
@@ -85,9 +94,10 @@
                 </div>
             </div>
             <div class="content-right">
-                <div class="milkdaimei">
+                <h1>DAIRY</h1>
+                <!-- <div class="milkdaimei">
                     <img src="img/dairy-font.png">
-                </div>
+                </div> -->
                 <div class="milk-text">
                     <p>
                         　動物性ミルクは牛から作られるのに対し、植物性ミルクは大豆などの植物から作られます。                        
@@ -110,8 +120,8 @@
         <div class="soy-text">
             <div class="content-left">
                 <div class="milkdaimei">
-                    <!-- <h2>SOY</h2> -->
-                    <img src="img/soy-font.png">
+                    <h2>SOY</h2>
+                    <!-- <img src="img/soy-font.png"> -->
                 </div>
                 <div class="milk-text">
                     <p>
@@ -141,8 +151,8 @@
             </div>
             <div class="content-right">
                 <div class="milkdaimei">
-                    <!-- <h3>ALMOND</h3> -->
-                    <img src="img/almond-font.png">
+                    <h3>ALMOND</h3>
+                    <!-- <img src="img/almond-font.png"> -->
                 </div>
                 <div class="milk-text">
                     <p>
@@ -165,8 +175,8 @@
         <div class="oats-text">
             <div class="content-left">
                 <div class="milkdaimei">
-                    <!-- <h4>OATS</h4> -->
-                    <img src="img/oats-font.png">
+                    <h4>OATS</h4>
+                    <!-- <img src="img/oats-font.png"> -->
                 </div>
                 <div class="milk-text">
                     <p>
@@ -190,8 +200,8 @@
     <!-- レシピ一覧 -->
     <section class="fuwat" id="recipes">
         <div class="recipes-content">
-            <!-- <h5>Recipes</h5> -->
-            <img src="img/recipes-font.png">
+            <h5>Recipes</h5>
+            <!-- <img src="img/recipes-font.png"> -->
             <div class="recipes-box">
                 <div class="recipe1">
                     <div class="recipe-img">
@@ -224,8 +234,8 @@
     <!-- コラム -->
     <section class="fuwat" id="column">
         <div class="column-content">
-            <!-- <h6>Column</h6> -->
-            <img src="img/column-font.png">
+            <h6>Column</h6>
+            <!-- <img src="img/column-font.png"> -->
             <div class="column-text">
                 <p>
                 　植物性ミルクは健康面だけではなく、環境にも良いとされています。植物性ミルクは動物性のミルクに比べて、生産過程における環境への負荷が少なくなるからです。
@@ -262,6 +272,15 @@
           });
         });
         </script>
+
+    <!-- ハンバーガーメニュー -->
+    <script>
+       $(function () {
+        $('.js-btn').on('click', function () {        // js-btnクラスをクリックすると、
+        $('.menu , .btn-line').toggleClass('open'); // メニューとバーガーの線にopenクラスをつけ外しする
+  })
+});
+    </script>
     
 </body>
 </html>
