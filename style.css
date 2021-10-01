@@ -578,13 +578,20 @@ h6{
 
 /* フッター */
 footer{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* font-size: 24px; */
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 24px;
     text-align: center;
     font-family: 'Klee One', cursive;
     background-color: #f1ede9;
+    color: #4d4c49;
 }
+
+/* footer{
+    height: 30px;
+    color: #4d4c49;
+} */
 
 /* フワッと */
 .fuwatAnime {
