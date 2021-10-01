@@ -277,6 +277,14 @@ h1, h2, h3, h4{
 .content-right a:hover{
     background-color: #f1ede9;
 }
+.pc{
+    display: block !important;
+}
+
+.sp{
+    display: none !important;
+}
+
 @media screen and (max-width: 1440px) {
     .dairy-img-sp{
         display: none;
@@ -287,18 +295,25 @@ h1, h2, h3, h4{
     #dairy{
         padding: 0px;
     }
-    /* .dairy-img{
-        display: none;
-    } */
 
     .dairy-text{
         flex-direction: column;
         background-color: #e1ceeb;
     }
 
-    .dairy-img-sp{
-        object-fit: contain;
+    .pc{
+        display: none !important;
     }
+
+    .sp{
+        display: block !important;
+    }
+
+    /* .content-left{
+        width: 60vw;
+    } */
+
+
 }
 
 
