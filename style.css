@@ -114,6 +114,41 @@ body{
 }
 
 @media screen and (max-width: 480px){
+    #header{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 628px;
+        background-image: url(img/main-sp.png);
+      }
+
+      .theme-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 280px;
+        left: 50px;
+        line-height: 1;
+    }
+
+    .theme1 p{
+        font-size: 54px;
+    }
+    
+    .theme2 p{
+        font-size: 54px;
+    }
+
+    .theme3{
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .theme3 p{
+        font-size: 18px;
+    }
+
     .scroll, .scroll hr{
         display: none;
 
@@ -242,14 +277,27 @@ h1, h2, h3, h4{
 .content-right a:hover{
     background-color: #f1ede9;
 }
+@media screen and (max-width: 1440px) {
+    .dairy-img-sp{
+        display: none;
+    } 
+}
 
 @media screen and (max-width: 480px){
     #dairy{
         padding: 0px;
     }
+    /* .dairy-img{
+        display: none;
+    } */
+
     .dairy-text{
         flex-direction: column;
         background-color: #e1ceeb;
+    }
+
+    .dairy-img-sp{
+        object-fit: contain;
     }
 }
 
@@ -521,7 +569,18 @@ h5{
 @media screen and (max-width: 480px){
     #recipes{
         height: 1554px;
+        width: 100vW;
+        background-image: url(img/recipes-background-sp.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: #e6cfb8;
     }
+    
     .recipes-box{
         flex-direction: column;
     }
@@ -570,6 +629,19 @@ h6{
 }
 
 @media screen and (max-width: 480px){
+    #column{
+        background-image: url(img/column-background-sp.png);
+        width: 100vw;
+        height: 506px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* background-size: cover; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .column-content{
         width: 80%;
     }
