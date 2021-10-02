@@ -228,12 +228,10 @@ nav a:hover {
     color: #fff;
 }
 
-@media screen and (max-width: 480px) {
-    .milkname-container, nav ul, .milk-flex, .nav li, nav a{
-        display: none;
-    }
+/* @media screen and (max-width: 480px;) {
+    .milkname-container, nav ul, .milk-flex
     
-}
+} */
 
 
 h1, h2, h3, h4{
@@ -342,10 +340,6 @@ h1, h2, h3, h4{
     .sp{
         display: block !important;
         width: 70%;
-    }
-
-    .content-left{
-        width: 70px;
     }
 
     /* .content-left{
