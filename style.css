@@ -17,13 +17,14 @@ section{
 }
 body{
     background-color: #f1ede9;
-    position: relative;
+    /* position: relative; */
     line-height: 0;
 
 }
 
 #header{
-  background-size: cover;
+position: relative;
+ object-fit: contain;
   background-position: center center;
   background-repeat: no-repeat;
   height: 1589px;
@@ -35,8 +36,8 @@ body{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 538px;
-    left: 62px;
+    top: 10%;
+    left: 10%;
     line-height: 1;
 }
 
@@ -104,8 +105,8 @@ body{
     text-align: left;
     position: absolute;
     line-height: 2;
-    top: 1100px;
-    left: 131px;
+    top: 75%;
+    left: 12%;
     font-size: 16px;
     font-family: 'Klee One', cursive;
     color: #4d4c49;
@@ -191,10 +192,10 @@ body{
 .milkname-container{
     position: absolute;
     line-height: 1;
-    top: 1018px;
-    right: 300px;
-
+    top: 68%;
+    right: 24%;
 }
+
 nav ul{
     overflow: hidden;
     margin: 0;
@@ -255,7 +256,7 @@ h1, h2, h3, h4{
     align-items: center;
     padding: 72px 0px; 
     background-image: url(img/dairy-background.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     /* background-color: #e1ceeb; */
@@ -423,7 +424,7 @@ h1, h2, h3, h4{
     align-items: center;
     padding: 72px 0px; 
     background-image: url(img/soy-background.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     /* background-color: #b8e3bf; */
@@ -497,7 +498,7 @@ h1, h2, h3, h4{
     align-items: center;
     padding: 72px 0px; 
     background-image: url(img/almond-background.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     /* background-color: #e6cfb8; */
@@ -533,7 +534,7 @@ h1, h2, h3, h4{
     align-items: center;
     padding: 72px 0px; 
     background-image: url(img/oats-background.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     /* background-color: #b2d8ed; */
@@ -572,7 +573,7 @@ h1, h2, h3, h4{
     background-image: url(img/recipe_background.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     display: flex;
     justify-content: center;
@@ -736,7 +737,7 @@ h5{
     background-image: url(img/column.png);
     background-repeat: no-repeat;
     background-position: center center;
-    /* background-size: cover; */
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
